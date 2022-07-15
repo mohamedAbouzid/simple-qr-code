@@ -1,0 +1,52 @@
+/* General Rules 
+******************************************/
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    src: url('../fonts/Outfit-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    src: url('../fonts/Outfit-Bold.ttf');
+    font-weight: 700;
+}
+html { font-size: 15px; }
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.bg-white { background-color: hsl(0, 0%, 100%); }
+.title { 
+    color: hsl(218, 44%, 22%);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.title::first-letter, .txt::first-letter, .upper { text-transform: uppercase; }
+.capital { text-transform: capitalize; }
+.txt { color: hsl(220, 15%, 55%); }
+.radius { border-radius: 0.3rem; }
+
+/* Start Box
+******************************************/
+.container {
+    width: 22.564%;
+    margin: 10% auto 5%;
+    padding: 1rem;
+}
+.txt-box {
+    width: 89%;
+    margin: auto;
+}
+
+/* Start footer
+******************************************/
+.attribution {
+    font-size: 11px;
+    margin-top: auto;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
